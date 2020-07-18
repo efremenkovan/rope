@@ -1,0 +1,51 @@
+Arguments: 
+  /usr/local/bin/node /Users/anya/.yarn/bin/yarn.js add nice-color-palette
+
+PATH: 
+  /Users/anya/.cargo/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/anya/.yarn/bin:/Users/anya/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/anya/.cargo/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/anya/.yarn/bin:/Users/anya/.config/yarn/global/node_modules/.bin
+
+Yarn version: 
+  1.19.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/nice-color-palette: Not found
+      at Request.params.callback [as _callback] (/Users/anya/.yarn/lib/cli.js:66918:18)
+      at Request.self.callback (/Users/anya/.yarn/lib/cli.js:140539:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/Users/anya/.yarn/lib/cli.js:141511:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/Users/anya/.yarn/lib/cli.js:141433:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1129:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "particles",
+    "version": "1.0.0",
+    "description": "",
+    "main": "sketch.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "canvas-sketch": "^0.7.3",
+      "three": "^0.118.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
